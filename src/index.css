@@ -1,13 +1,133 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #babdc2;
+  color: white;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  background-color: #2c3747;
+  color: white;
+  border: 2px solid #3f5068;
 }
+
+button:focus{
+  background-color: #3f5068;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: .25rem;
+}
+
+th {
+  height: 1.25rem;
+  border: 1px solid #3f5068;
+}
+
+td{
+  background-color: #3f5068;
+  height: 2rem;
+  border: 2px solid #2c3747;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c3747;
+  color: #babdc2;
+  height: fit-content;
+  font-size:x-large;
+}
+
+  #headerTitle {
+      flex-grow: 0;
+      height: fit-content;
+      margin: 1rem;
+      font-size: 5rem;
+  }
+
+  #nowTime {
+      display: flex;
+      flex-direction: column;
+  }
+
+      #headerClock {
+          margin-top: 1rem;
+          margin-right: 1rem;
+          margin-bottom: 0rem;
+      }
+
+      #nowDate {
+          margin-bottom: 1rem;
+          margin-right: 1rem;
+          margin-top: 0rem;
+      }
+
+#AppBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+#calendarCon {
+  flex: 1;
+  background-color: #2c3747;
+  margin-top: .5rem;
+  margin-right: .25rem;
+}
+
+  #calTopDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #yearMonthDisp {
+    flex: 3;
+  }
+  #buttonDiv {
+    flex: 1;
+    display: flex;
+  }
+    #backBtn {
+      flex-grow: inherit;
+    }
+    #nextBtn {
+      flex-grow: inherit;
+    }
+
+  #calTable {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+#todoNotesCon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+  #todoCon {
+    flex: 1;
+    background-color: #2c3747;
+    height: fit-content;
+    margin-top: .5rem;
+    margin-left: .25rem;
+  }
+
+  #notesCon {
+    flex: 1;
+    background-color: #2c3747;
+    height: 50%;
+    margin-top: .5rem;
+    margin-left: .25rem;
+  }
+
+  #notesEditor {
+    margin: .5rem;
+  }
