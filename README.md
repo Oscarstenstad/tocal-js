@@ -1,3 +1,11 @@
+![image](https://user-images.githubusercontent.com/26256828/171179245-5ba3665f-5494-4095-b318-b15c4f55a9bd.png)
+There are some bugs in the app as of now, that i am working on.
+- There is not possible to add events to the calendar yet, it just displays months.
+- When adding notes or todos, there are som issues with the page not scaling correctly
+- The bold, italic and header buttons in the notes don't "stick", so now one has to write something, mark it and then click on the button for it to work. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
