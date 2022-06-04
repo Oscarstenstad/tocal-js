@@ -43,6 +43,7 @@ td{
   color: #babdc2;
   height: fit-content;
   font-size:x-large;
+  border-radius: 20px;
 }
 
   #headerTitle {
@@ -79,6 +80,8 @@ td{
   background-color: #2c3747;
   margin-top: .5rem;
   margin-right: .25rem;
+  border-radius: 20px;
+  padding: .8rem;
 }
 
   #calTopDiv {
@@ -118,6 +121,8 @@ td{
     height: fit-content;
     margin-top: .5rem;
     margin-left: .25rem;
+    border-radius: 20px;
+    padding: .8rem;
   }
 
   #notesCon {
@@ -126,6 +131,8 @@ td{
     height: 50%;
     margin-top: .5rem;
     margin-left: .25rem;
+    border-radius: 20px;
+    padding: .8rem;
   }
 
   #notesEditor {
